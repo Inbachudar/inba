@@ -1,15 +1,15 @@
-a=int(input())
+i=int(input())
+n=int(input())
 b=int(input())
-c=int(input())
-if(a>b):
-  if(a>c):
-    print(a)
+if(i>n):
+  if(i>b):
+    print(i)
   else:
-    print(c)
+    print(b)
 else:
-  if(b>c):
-      print(b)
+  if(n>b):
+      print(n)
   else:
-    print(c)
+    print(b)
 
 
