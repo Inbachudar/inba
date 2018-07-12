@@ -1,5 +1,5 @@
-z=input()
+inba=input()
 if(z.isalpha()):
    print("Alphabet")
 else:
-  print("No")
+  print("Not an alphabet")
