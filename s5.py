@@ -1,15 +1,12 @@
 i=int(input())
 n=int(input())
 b=int(input())
-if(i>n):
-  if(i>b):
-    print(i)
-  else:
-    print(b)
-else:
-  if(n>b):
-      print(n)
-  else:
-    print(b)
-
+if(i>n and i>b):
+  print(i)
+elif(i>n and i<b ):
+  print(b)
+elif(i<n and n>b):
+  print(n)
+elif(i<n and n<b):
+  print(b)
 
