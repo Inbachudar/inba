@@ -1,6 +1,6 @@
-a=input()
-if(a.isalpha()):
-  if(a=='a' or a=='e' or a=='i' or a=='o' or a=='u' or a=='A' or a=='E' or a=='I'or a=='U' or a=='O'):
+x=input()
+if(x.isalpha()):
+  if(x=='a' or x=='e' or x=='i' or x=='o' or x=='u' or x=='A' or x=='E' or x=='I'or x=='U' or x=='O'):
     print("Vowel")
   else:
     print("Consonant")
